@@ -4,6 +4,8 @@ import Header from '../../components/header/Header';
 import Featured from '../../components/featured/Featured';
 import PropertyList from '../../components/propertyList/propertyList';
 import FeaturedProperties from '../../components/featuredProperties/featuredProperties';
+import MailList from '../../components/mailList/mailList';
+import Footer from '../../components/footer/Footer';
 
 const Home = () => {
   return (
@@ -20,6 +22,8 @@ const Home = () => {
           Homes Guests Love
         </h1>
         <FeaturedProperties />
+        <MailList />
+        <Footer />
       </div>
     </div>
   )
